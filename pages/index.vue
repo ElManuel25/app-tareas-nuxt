@@ -9,7 +9,7 @@
               <v-form @submit.prevent="login">
                 <v-text-field v-model="email" label="Correo electrónico" required placeholder="profe escriba admin@ejemplo.com para entrar"></v-text-field>
                 <v-text-field v-model="password" label="Contraseña" type="password" required placeholder="profe escriba contrasena123 para entrar"></v-text-field>
-                <v-btn type="submit" class="custom-btn" color="primary">Iniciar Sesión</v-btn>
+                <v-btn type="submit" class="custom-btn" color="6e22ed">Iniciar Sesión</v-btn>
               </v-form>
             </v-card-text>
           </v-card>
