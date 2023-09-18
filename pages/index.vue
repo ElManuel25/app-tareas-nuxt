@@ -7,8 +7,8 @@
             <v-card-title class="headline">Inicio de sesión</v-card-title>
             <v-card-text>
               <v-form @submit.prevent="login">
-                <v-text-field v-model="email" label="Correo electrónico" required placeholder="admin@ejemplo.com"></v-text-field>
-                <v-text-field v-model="password" label="Contraseña" type="password" required placeholder="contrasena123"></v-text-field>
+                <v-text-field v-model="email" label="Correo electrónico" required placeholder="profe escriba admin@ejemplo.com para entrar"></v-text-field>
+                <v-text-field v-model="password" label="Contraseña" type="password" required placeholder="profe escriba contrasena123 para entrar"></v-text-field>
                 <v-btn type="submit" class="custom-btn" color="primary">Iniciar Sesión</v-btn>
               </v-form>
             </v-card-text>
